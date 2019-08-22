@@ -1,5 +1,0 @@
-Employee Name: F Whittaker	Salary: $1,500,000.00
-Employee Name: R Downey		Salary: $25,000,000.00
-Employee Name: Maverick		Salary: $1,289.50
-Employee Name: S Holmes		Salary: $ 250,000.00
-Employee Name: J Watson	Salary: $          250,000.00
