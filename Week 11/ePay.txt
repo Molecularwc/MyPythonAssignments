@@ -1,0 +1,5 @@
+Name: T Shakur	Total pay: $3420.00		Average pay: $35.62
+Name: B Smalls	Total pay: $1856.50		Average pay: $27.71
+Name: P Diddy	Total pay: $857.50		Average pay: $24.50
+Name: S Lee		Total pay: $12300.00	Average pay: $120.59
+Name: J Law		Total pay: $9800.00		Average pay: $142.03
