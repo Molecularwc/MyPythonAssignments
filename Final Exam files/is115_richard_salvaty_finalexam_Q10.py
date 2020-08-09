@@ -1,36 +1,5 @@
-##Declare pWord, x as string
-##Declare accepted as boolean
-##
-##define pass_validate(x)
-##  Set vLower = 'abcdefghijklmnopqrstuvwxyz'
-##  Set vUpper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-##  Set vNum = '0123456789'
-##  Set vChar = '$#@'
-##  if((x is subset(vLower) and x is subset(vUpper)) and (x is subset(vNum) and x is subset(vChar)))Then
-##      Set accepted = True      
-##      Write "Password is valid."
-##  else
-##      Set accepted = false
-##      Write "The password you entered is invalid. Try again."
-##end module
-##
-##define main()
-##  Set accepted = False
-##  while(accepted == False)
-##      Write "Enter your password. It must contain at least 1 lower, 1 uppercase letters,
-##      1 number between 0-9, and one of the special characters $#@"
-##      Get pWord
-##      if(len(pWord) < 6 and len(pWord) > 16) Then
-##          Write "Your password must be between 6-16 characters. Please re-enter your password. "
-##          Get pWord
-##      end if
-##      pass_validate(pWord)
-##      end if
-##  end while
-##end module
-##
-##main()
 import re, hashlib, binascii, os
+
 fileName = "StoredPW.txt"
 
 def hash_password(x):
